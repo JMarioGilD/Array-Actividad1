@@ -21,11 +21,12 @@ myArray.unshift("Maroon 5");
 console.log(myArray);
 
 // Luego crea una variable de tipo string donde puedas leer todos los elementos de tu array , separados por guiones -
+let bandasFavoritas = myArray.join('-');
+console.log(bandasFavoritas);
+// let BandasFavoritas = 'Maroon5 Coldplay Muse Epica Mana Queen';
+// let divide = BandasFaavoritas.split(' ');
+// console.log(divide);
 
-let BandasFaavoritas = 'Maroon5 Coldplay Muse Epica Mana Queen';
-let divide = BandasFaavoritas.split(' ');
-console.log(divide);
-
-for (let i=0; i<divide.length; i++){
-    document.write(divide[i] + " - ");
-}
+// for (let i=0; i<divide.length; i++){
+//    document.write(divide[i] + " - ");
+// }
